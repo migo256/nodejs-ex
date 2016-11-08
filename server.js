@@ -35,17 +35,17 @@ if (mongoURL === null && process.env.DATABASE_SERVICE_NAME) {
   }
 }
 
-console.log('port: &s', port);
-console.log('ip: &s', ip);
-console.log('mongoServiceName: &s', mongoServiceName);
-console.log('mongoHost: &s', mongoHost);
-console.log('mongoPort: &s', mongoPort);
-console.log('mongoDatabase: &s', mongoDatabase);
-console.log('mongoPassword: &s', mongoPassword);
-console.log('mongoUser: &s', mongoUser);
+console.log('port: %s', port);
+console.log('ip: %s', ip);
+console.log('mongoServiceName: %s', mongoServiceName);
+console.log('mongoHost: %s', mongoHost);
+console.log('mongoPort: %s', mongoPort);
+console.log('mongoDatabase: %s', mongoDatabase);
+console.log('mongoPassword: %s', mongoPassword);
+console.log('mongoUser: %s', mongoUser);
 
-console.log('mongoURL: &s', mongoURL);
-console.log('mongoURLLabel: &s', mongoURLLabel);
+console.log('mongoURL: %s', mongoURL);
+console.log('mongoURLLabel: %s', mongoURLLabel);
 
 var db = null,
     dbDetails = new Object();
